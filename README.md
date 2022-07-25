@@ -1,4 +1,4 @@
-# Bella Food App Food App
+# Bella Food App
 
 This is a solution to the first project challenge given by [Grazac Academy] (https://www.pleasantvik-bella-olonje.netlify.app)
 
