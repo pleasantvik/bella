@@ -18,6 +18,10 @@
     background-color: var(--color-pry);
     border: 1px solid transparent;
     margin-right: 2rem;
+
+    @media (max-width: 34.5em) {
+      margin-right: 0rem;
+    }
   }
   &__ghost:link,
   &__ghost:visited {

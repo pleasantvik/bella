@@ -89,6 +89,9 @@ body {
     background-color: var(--color-pry);
     border: 1px solid transparent;
     margin-right: 2rem; }
+    @media (max-width: 34.5em) {
+      .btn__full:link, .btn__full:visited {
+        margin-right: 0rem; } }
   .btn__ghost:link, .btn__ghost:visited {
     border: 1px solid var(--color-white); }
     @media (max-width: 34.5em) {
