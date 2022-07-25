@@ -1,0 +1,40 @@
+.heading {
+  &__h1 {
+    color: var(--color-white);
+    font-size: 3.6rem;
+    font-weight: 600;
+
+    @media (max-width: 34.5em) {
+      color: var(--color-bg-2);
+    }
+  }
+
+  &__span {
+    color: var(--color-white-2);
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  &__h2 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 2.4rem;
+  }
+
+  &__h3--orange {
+    color: var(--color-pry);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  &-tertiary {
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.step-description {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-grey-dark);
+}

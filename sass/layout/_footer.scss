@@ -1,0 +1,118 @@
+.app {
+  background-image: linear-gradient(
+      0deg,
+      rgba(23, 16, 16, 0.2),
+      rgba(23, 16, 16, 0.2)
+    ),
+    url(../../img/download-small.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 1800px) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(23, 16, 16, 0.2),
+        rgba(23, 16, 16, 0.2)
+      ),
+      url(../../img/bg2.png);
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__span {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 4rem;
+
+  &__address {
+    flex: 0 0 30%;
+
+    @media (max-width: 50em) {
+      flex: 0 0 20%;
+    }
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 4rem;
+    width: 4rem;
+    fill: var(--color-pry);
+
+    @media (max-width: 50em) {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+
+  &__img--link {
+    text-decoration: none;
+  }
+
+  &__logo {
+    height: 6rem;
+  }
+
+  &__copy {
+    color: #5c5c5c;
+    font-size: 1.4rem;
+  }
+}
+
+footer {
+  padding: 2rem 4rem;
+}
+
+@media (max-width: 34.5em) {
+  .app {
+    background-image: none;
+    background-color: var(--color-bg-2);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__address {
+      gap: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    &__img--link {
+      display: none;
+    }
+
+    &__copy {
+      text-align: center;
+    }
+  }
+}

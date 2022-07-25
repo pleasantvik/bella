@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Bella Onojie is an AI-powered food subscription that will make you eat healthy again. Great food with great taste delivered to your door steps"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bella Olonje &mdash; Food App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__img--link">
+          <img src="img/logo.png" alt="Logo" class="header__logo" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#product" class="nav__link">Product</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faq" class="nav__link">Faq</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="nav__btn-mobile">
+          <svg class="nav__icon nav__icon--open">
+            <use xlink:href="img/icon.svg#icon-menu"></use>
+          </svg>
+          <svg class="nav__icon nav__icon--close">
+            <use xlink:href="img/icon.svg#icon-cross"></use>
+          </svg>
+        </button>
+      </header>
+      <header class="hero">
+        <div class="hero__box">
+          <h1 class="heading__h1 mb-1">
+            Why stay hungry when <br />
+            you can order from Bella Onojie
+          </h1>
+          <h3 class="heading__h3">Food app</h3>
+          <span class="heading__span mb-1">Download the bella onojioe app</span>
+          <div class="hero__btn">
+            <a class="btn btn__full" href="#">Playstore</a>
+            <a class="btn btn__ghost" href="#">App store</a>
+          </div>
+        </div>
+      </header>
+
+      <figure class="img-photo" id="home">
+        <img class="apple" src="img/apple.png" alt="apple" />
+        <img class="android" src="img/andriodx2.png" alt="andriod" />
+      </figure>
+      <main class="main">
+        <article class="section" id="product">
+          <h2 class="heading__h2 text-center">How the app works</h2>
+          <div class="container-grid grid grid--2-cols grid-center-v">
+            <div class="step-img-box">
+              <img
+                src="img/step-img1.png"
+                alt="iPhone app preferences selection screen"
+                class="step-img"
+              />
+            </div>
+            <div class="step-text-box">
+              <p class="heading__h3--orange">Create an account</p>
+              <h3 class="heading-tertiary">
+                Create/login to an existing account to get started
+              </h3>
+              <p class="step-description">
+                An account is created with your email and password
+              </p>
+            </div>
+
+            <div class="step-text-box">
+              <p class="heading__h3--orange">Explore varieties</p>
+              <h3 class="heading-tertiary">
+                Shop for your favorites meals as e dey hot
+              </h3>
+              <p class="step-description">
+                Shop for your favorite meals or drinks and enjoy while doing it
+              </p>
+            </div>
+            <div class="step-img-box">
+              <img
+                src="img/step-img2.png"
+                alt="iPhone app preferences selection screen"
+                class="step-img"
+              />
+            </div>
+            <div class="step-img-box">
+              <img
+                src="img/step-img3.png"
+                alt="iPhone app preferences selection screen"
+                class="step-img"
+              />
+            </div>
+            <div class="step-text-box">
+              <p class="heading__h3--orange">Checkout</p>
+              <h3 class="heading-tertiary">
+                When you done check out and get it delivered
+              </h3>
+              <p class="step-description">
+                When you done check out and get it delivered with ease
+              </p>
+            </div>
+          </div>
+        </article>
+        <section class="app" id="faq">
+          <div class="app__box">
+            <p class="app__text">Download the app now.</p>
+            <span class="app__span"
+              >Available on your favorite store. Start your premium experience
+              now</span
+            >
+            <div class="hero__btn">
+              <a class="btn btn__full br-6" href="#">Playstore</a>
+              <a class="btn btn__ghost br-6" href="#">App store</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="foote" id="contact">
+        <div class="container-grid footer">
+          <a href="#" class="footer__img--link">
+            <img src="img/logo.png" alt="Logo" class="footer__logo" />
+          </a>
+
+          <address class="footer__address">
+            <svg class="footer__icon">
+              <use xlink:href="img/icon.svg#icon-twitter"></use>
+            </svg>
+            <svg class="footer__icon">
+              <use xlink:href="img/icon.svg#icon-facebook2"></use>
+            </svg>
+            <svg class="footer__icon">
+              <use xlink:href="img/icon.svg#icon-instagram"></use>
+            </svg>
+          </address>
+          <div class="footer__copy">copyright 2020 Bella Onojie.com</div>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
